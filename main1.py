@@ -16,7 +16,7 @@ from tkinter import filedialog as fd
 #runs the file: acessing_the_camera.py 
 def access_camera():
         # Path to the script
-        script_path = '/Users/macbook/Documents/coding started/opencvproject/acessing_the_camera.py'
+        script_path = '"$Path"/acessing_the_camera.py'
         # Executing the script using subprocess
         subprocess.run(['python', script_path])
 
